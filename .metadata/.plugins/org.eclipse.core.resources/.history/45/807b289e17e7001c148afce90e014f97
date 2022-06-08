@@ -1,0 +1,31 @@
+
+
+public class Main {
+	 public static void main(String []args) {
+		// System.out.println("Hola mundo!");
+		// System.out.println("2+3");
+		//ystem.out.println(2+3);
+		//nt a = 10;
+		//nt a= 1;
+		//nt b=2;
+          
+		//ystem.out.println(a+b+c);0    c=6;
+// System.out.println(a+b+c);
+// System.out.printf ("%d + %d + %d" ,a,b,c,a+b+c).println();
+		 byte goles=4;
+		 int habitantes=1200000;
+		 char dni= y;
+		 boolean bombillaApagada=true;
+		 
+		 int edad = 18;
+		// si edad es igual a 18
+		if (edad == 18) {
+		System.out.println("Tengo 18 años");
+		}
+		System.out.println("Programa finalizado");
+		 
+		 
+		 
+				
+	 }
+}
