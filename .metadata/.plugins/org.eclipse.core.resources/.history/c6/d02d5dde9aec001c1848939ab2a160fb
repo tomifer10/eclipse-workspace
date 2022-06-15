@@ -1,0 +1,12 @@
+package com.banco;
+
+public class Main5 {
+	public static void Gestor (String[]args) {
+		String gestor1= "Alberto";
+		String gestor2= "Juanito";
+		String gestor3= "Pedro";
+		
+				
+	}
+
+}

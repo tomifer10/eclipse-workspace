@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class scan {
+	
+	public static void main(String []args) {
+		 System.out.println("Introduce un numero por pantalla:");
+		Scanner keyboard = new Scanner(System.in);
+		int numero = keyboard.nextInt();
+		keyboard.close();
+		if (numero == 1) {
+			System.out.println("Gestores");
+		}
+		else if (numero == 2) {
+			System.out.println ("Clientes");
+			
+		}
+		else if (numero == 3) {
+			System.out.println ("Transferencias");
+		}
+		else if (numero == 4) {
+			System.out.println ("Mensajes");
+			
+		}
+		else if (numero == 5) {
+			System.out.println ("Prestamos");
+			
+		}
+		else if (numero == 6) {
+			System.out.println ("Salir");
+		}
+		else {
+	
+		}
+}
+}
