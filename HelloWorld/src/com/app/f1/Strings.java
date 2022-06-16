@@ -33,4 +33,19 @@ public class Strings {
 		}else {
 			System.out.println("abc no esta ni al principio ni al final");
 		}
+		
+		//Ejercicio escribe un programa que devuelva si un String es palíndromo (se escribe igual
+		//hacia delante y hacia detrás). Ejemplo: "sometemos".
+		
+		String palin ="sometemos";
+		String palinReverse="";
+		int indiceRecorre = palin.length()-1;
+		for (int i=indiceRecorre;i>0;i--) {
+			palinReverse=palin.substring(indiceRecorre);
+			
+			
+		}
+		if (palin.equals(palinReverse)) {
+			System.out.println("Es un palindromo");
+		}
 	}}
