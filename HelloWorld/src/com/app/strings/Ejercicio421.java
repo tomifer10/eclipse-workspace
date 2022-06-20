@@ -22,4 +22,19 @@ public class Ejercicio421 {
 		
 		strb1.deleteCharAt(11);
 		System.out.println(strb1);
+		
+		StringBuilder strb4 = new StringBuilder("Ayer cayó un rayo");
+	    String conv=strb4.toString();
+	    int pos= 0;
+
+	    while (pos<=conv.length()) {
+	        char Caract=conv.charAt(pos);
+	            if (Caract == ' ') {
+	                pos++;
+	                //conv.replace(Caract.toUpperCase(Caract));
+	               // strb4.toUpperCase(pos);
+	            }else {
+	                pos++;
+	            }
+	    }
 	}}
